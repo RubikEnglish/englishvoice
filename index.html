@@ -24,7 +24,7 @@
       <input name="pitch" type="range" min="0" max="2" step="0.1"   style="display: none"  >
       <textarea name="text"  style="display: none"  >Hello! I love JavaScript 👍</textarea>
       <button id="stop" style="display: none" >Stop!</button>
-      <button id="speak">The emperor and the kite</button>
+      <button id="speak">The emperor and the Kite  Once in ancient China there lived a princess who was the fourth daughter of the emperor. </button>
 
     </div>
 
@@ -36,7 +36,7 @@
   const speakButton = document.querySelector('#speak');
   const stopButton = document.querySelector('#stop');
   msg.text = document.querySelector('[name="text"]').value;
-  msg.text = 'The Emperor and the Kite';
+  msg.text = 'The Emperor and the Kite  Once in ancient China there lived a princess who was the fourth daughter of the emperor.';
 
   function populateVoices() {
     voices = this.getVoices();
